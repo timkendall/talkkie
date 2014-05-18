@@ -3,10 +3,11 @@ var talkkie = require('../lib/talkkie'),
 
 // Import training data
 var classifier = new talkkie.Classifier();
-classifier.import('/Users/Me/Dropbox/Projects/msc/node_modules/talkkie/lib/training/training.json');
+classifier.import();
 
 // Read a test script
-fs.readFile('/Users/Me/Desktop/Scripts/Comedy/american-splendor.txt', 'utf8', function (err, contents) {
+
+fs.readFile('/Users/Me/Desktop/Test\ /Horror/copycat-script-at-imsdbcopycat.txt', 'utf8', function (err, contents) {
   if (err) throw err;
 
   // Classify
