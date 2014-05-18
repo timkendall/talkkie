@@ -17,4 +17,5 @@ fs.readFile('/Users/Me/Desktop/Scripts/Comedy/american-splendor.txt', 'utf8', fu
     if (field === 'Classified') console.log('Classified as: ' + detailed.Classified)
     else console.log(field + ': ' + detailed[field] + '%');
   }
+  // -> ["Classified as: Drama - Action: 24.55%, Comedy: 24.41%, Drama: 26.13%, Horror: 24.92% "]
 });
