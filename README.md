@@ -58,8 +58,9 @@ We use the simple Naive Bayes' theorem to classify movie scripts into genres. Th
 
 _(Some notes)_:
  - We automatically ignore a list of 100 most common words found in English when counting word occurences.
- - We have not implemented classification for the Musical genre (honestly this is not really a genre anyways)
  - A pre-generated training.json is included in lib/training
+ - A bunch of training scripts can be found [here](https://github.com/etesh100/Scripts)
+ - Because scripts are classified under multiple genres the detailed output is helpful
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
