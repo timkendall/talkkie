@@ -1,5 +1,4 @@
-# talkkie [![Build Status](https://secure.travis-ci.org/timkendall/talkkie.png?branch=master)](http://travis-ci.org/timkendall/talkkie)
-
+# talkkie
 Movie script genre classifier.
 
 ## Getting Started
