@@ -10,7 +10,10 @@ var classifier = new talkkie.Classifier();
 ```
 
 ## Documentation
-# Training
+
+### Training
+Pass in multiple scripts to traing the classifier.
+
 ```javascript
 var script1 = '...';
 var script2 = '...';
@@ -21,7 +24,9 @@ classifier.train(script1, 'Comedy');
 classifier.train(script1, 'Horror');
 ```
 
-# Classifying
+### Classifying
+Classify a script. Optionally pass in an options object.
+
 ```javascript
 var unkown = '...';
 var genre = classifier.classify(unknown);
@@ -29,13 +34,17 @@ var genre = classifier.classify(unknown);
 // -> 'Action'
 ```
 
-# Exporting training data
+### Exporting training data
+Export tarining data as JSON for later use.
+
 ```javascript
 classifier.export('/Desktop/training.json')
 ```
   - If a path is not specified training.json will be saved to lib/training
 
-# Import training data
+### Import training data
+Import training JSON.
+
 ```javascript
 classifier.import('/Desktop/training.json')
 ```
